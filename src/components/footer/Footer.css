@@ -9,3 +9,14 @@
     background-color: rgb(190, 190, 190);
     height: 10vw;
 }
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+}
+
+.img{
+    object-fit: scale-down;
+    width: 2vw;
+}

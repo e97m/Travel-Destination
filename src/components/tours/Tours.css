@@ -3,3 +3,9 @@
     object-fit: scale-down;
     width: 50vw;
 }
+
+.line {
+    width: 75%;
+    height: 0.1vw;
+    background-color: black;
+}
