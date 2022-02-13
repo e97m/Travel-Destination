@@ -1,0 +1,11 @@
+*{
+    font-size: 1.5vw;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(190, 190, 190);
+    height: 10vw;
+}
