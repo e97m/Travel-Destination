@@ -5,9 +5,9 @@ function Footer() {
       <div className="Footer">
           <>
           <p>Emad Almajdalawi</p>
-          <div>
-          <a href="http://www.facebook.com"> Facebook </a>
-          <a href="https://www.linkedin.com/"> LinkedIn </a>
+          <div className='contact'>
+          <a href='http://www.facebook.com'><img src={"../imgs/facebook.png"} alt='Facebook' className='img'/> </a>
+          <a href='https://www.linkedin.com/'> <img src={"../imgs/linkedin.png"} alt='LinkedIn' className='img'/> </a>
           </div>
           </>
       </div>

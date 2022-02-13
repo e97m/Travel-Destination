@@ -8,6 +8,7 @@ const Tours = ({data}) => {
                         <div key={city.id}>
                         <h2>Name : {city.name} </h2>
                         <img alt='city' src={city.image} className='img'/>
+                        <hr className='line'/>
                         </div>
                 ))
                 }
