@@ -2,7 +2,12 @@
 .Header {
     display: flex;
     align-items: center;
-    justify-content:center;
-    background-color: rgb(190, 190, 190);
+    justify-content:space-around;
+    background-color: #0D1117;
     height: 10vw;
+}
+
+.title{
+    font-size: 3vw;
+    background-color: #0D1117;
 }

@@ -1,9 +1,11 @@
 import './Header.css';
+import Navbar from '../navbar/Navbar'
 
 function Header() {
     return (
       <div className="Header">
-          <h1> Most Vesited Cities </h1>
+          <p className="title"> Most Vesited Cities </p>
+          <Navbar/>
       </div>
     );
   }

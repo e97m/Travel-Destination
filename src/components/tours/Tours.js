@@ -1,18 +1,19 @@
 import './Tours.css';
+import Tour from './tour/Tour'
+import citiesData from '../../data/db.json'
 
-const Tours = ({data}) => {
+
+function Tours () {
   return (
-           <div className="Tours">
-                {
-                data.map(city => (       //functionName => { render (bla bla bla)}   , or you can do:   functionName => (bla bla bla)
-                        <div key={city.id}>
-                        <h2>Name : {city.name} </h2>
-                        <img alt='city' src={city.image} className='img'/>
-                        <hr className='line'/>
-                        </div>
-                ))
-                }
-            </div>
+    <>
+       <div className="Tours">
+        {
+          citiesData.map(element => (      
+            <Tour card={element} idKey={element.id}/>
+          ))
+        }
+      </div>
+    </>
   )
 }
 
