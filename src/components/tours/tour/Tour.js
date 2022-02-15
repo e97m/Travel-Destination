@@ -1,14 +1,9 @@
 import './Tour.css';
 import TourDetails from '../../tourDetails/TourDetails'
-import { Link } from "react-router-dom";
+
 
 function Tour({card , idKey}) {
     // const {card} = props
-    console.log(idKey);
-
-    function showDetails() {
-        <TourDetails idKey={idKey} />
-    }
 
     return (
         <div className='tour' >
@@ -16,7 +11,6 @@ function Tour({card , idKey}) {
             <img alt='city' src={card.image} className='img' />
             <br />
             <br />
-            <Link to="/city/:id"> <button onClick={showDetails()} className='btn'>Show Details</button> </Link>
             <hr className='line' />
         </div>
     )

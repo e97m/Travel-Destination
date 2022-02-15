@@ -4,7 +4,11 @@ import { useParams } from "react-router-dom";
 
 function TourDetails({ idKey }) {
 
-    const {id} = useParams(idKey);
+    let {id} = useParams(idKey);
+
+    function cardFinder(){
+        
+    }
 
     citiesData.forEach(element => {
         if (element.id === idKey) {
